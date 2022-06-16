@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Custom style -->
+        <link rel="stylesheet" href="css/mystyle.css">
+
+        <style>
+        
+            .bgimg-1 {
+                position: relative;
+                opacity: 0.65;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("img/tarot2.png");
+                min-height: 100%;
+                opacity: 0.99;
+            }
+
+        </style>
+        
+    </head>
+    <body>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <div class="bgimg-1">
+            <div class="caption">
+                <span class="border" style="background-color:grey; opacity:0.7; font-size:25px;color: #f7f7f7;">Hi, I am Aga.</span>
+            </div>
+            <div class="captionBot">
+                <a class="ct-btn-scroll ct-js-btn-scroll" href="#navbar"><img alt="Arrow Down Icon" src="img/down.png" style="opacity:0.7; width:4%"></a>
+            </div>
+        </div>
+        
+        <div class="nav-wrapper" id="navbar" style="height:6px;">
+        <nav id="navspy">
+        </nav>
+        </div>
+        
+        <div class="col-md-12" style="color: #777;background-color:white; text-align:left; padding:10px 20%; text-align: justify;" data-spy="scroll" data-target="#navspy" data-offset="0">
+
+            <h3 style="text-align:center;" id="id1"></h3>
+            
+            <p id="p02">
+
+            Agnieszka (Aga) Czeszumska<br>
+            agaczesz [at] gmail [dot] com<br><br>
+            
+            Leveraging my science background in nuclear physics and astrophysics, and my work experience in systems and mechatronics engineering, I work at the intersection of technology, data, science and art. I collaborate with artists, supporting in software and hardware production aspects of their pieces. I am interested in acoustic ecology, psychoacoustics, sensory extension and cross-modal perception, and specifically in how sound can be used to augment, transform or reflect experiences.
+            <br><br>
+            <a href='cv_current_web.pdf'>Curriculum Vitae</a>
+            </p>
+            
+        </div>
+        
+        
+        <div class="col-md-12" style="color: #777;background-color:white; padding:0px 10%; text-align:left; text-align: justify;">
+
+        <h3 style="text-align:center">Selection of Work</h3>
+  
+<div class="col-md-12" style="color: #777;background-color:white; text-align:center; padding:0px 0%; text-align: justify;">
+ 
+ <div id="myBtnContainer" align="center">
+   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+   <button class="btn" onclick="filterSelection('elect')"> Electronics & Sound</button>
+   <button class="btn" onclick="filterSelection('art')"> Art</button>
+   <button class="btn" onclick="filterSelection('puredata')"> Pure Data</button>
+ </div>
+ <!-- Portfolio Gallery Grid -->
+ <div class="row">
+     
+   <div class="column elect">
+     <div class="content">
+       <img src="projects/vlf.png" alt="VLF" style="width:100%">
+       <h4>VLF Radio</h4>
+       <p>Exploring natural radio signals produced by lightning strikes from across the globe, with a self-built radio based on McGreevey’s BBB-4 circuit design. Project was conducted during the MultiMadeira residency in January of 2020, and is ongoing to continue recording from different places. <a href='https://soundcloud.com/user-492962166/recording-of-vlf-natural-radio-in-madeira?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'>[Link to sound clip]</a> </p>
+     </div>
+   </div>
+   
+   <div class="column elect">
+     <div class="content">
+       <img src="projects/theremins.jpeg" alt="Theremins" style="width:100%">
+       <h4>Optical theremins</h4>
+       <p>Custom-made PCB's Based on an open-source circuit diagram, strung together and used as a drone instrument sensitive to light (and hence movement).</p>
+     </div>
+   </div>
+
+   <div class="column elect">
+     <div class="content">
+       <img src="projects/daisy.jpeg" alt="Surrears" style="width:100%">
+       <h4>Surrears</h4>
+       <p>Real-time synthesis of ambient, environmental sounds, consisting of microphones connected to a <a href='https://www.electro-smith.com/daisy'>Daisy</a> microcontroller. Modifying emphasis of certain frequency ranges modifies the environmental sounds, and encourages explorations in acoustic ecology. </p>
+     </div>
+   </div>
+   
+   
+   <div class="column puredata">
+     <div class="content">
+       <img src="projects/vibrations.png" alt="Surrears" style="width:100%">
+       <h4>Genetic Vibrations</h4>
+       <p>Collaboration with Ashley Middleton on a soundscape for her work, <a href='http://www.amiddletonprojects.com/mechanism-of-action'>Mechanism of Action</a>, exhibited at Nanocosmic Investigations in Malmo, Sweden (2022). Produced with Pure Data, and based on the DNA sequence and vibrational properties of amino acids. <a href='https://soundcloud.com/user-492962166/dna-soundscape?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'>[Link to sound clip]</a>
+       </p>
+     </div>
+   </div>
+   
+
+   <div class="column art">
+     <div class="content">
+       <img src="projects/eeg.jpeg" alt="EEG" style="width:100%">
+       <h4>EEG/OpenBCI Collaboration</h4>
+       <p>Python script for the analysis of real-time EEG data, streamed to touchdesigner. The code is used in Ashley Middleton’s ongoing project  <a href='http://www.amiddletonprojects.com/under-the-watermark'>Under the Watermark</a>, which has been exhibited at Monom Studios, Berlin, Germany as part of The AGAPÈ — Contact exhibit and CTM Festival.
+       </p>
+     </div>
+   </div>
+
+   
+      <div class="column art">
+        <div class="content">
+          <img src="projects/worms.png" alt="Soft Robots" style="width:100%">
+          <h4>Soft Robot Worms</h4>
+          <p>Comission for a control circuit for the movement of silicon worms (with air pumps), which were designed and created by Rebecca Stumpf. Work was displayed in 2019 at ZK/U, Berlin, Germany, for an exhibit on soil ecology.
+          </p>
+        </div>
+      </div>
+
+      <div class="column art">
+        <div class="content">
+          <img src="projects/hand1.jpeg" alt="Parade of Fools" style="width:100%">
+          <h4>Portrait of Johnna Slaby</h4>
+          <p>Parade of Fools annual group exhibition (2018), Osaka, Japan. Sculpture with an optical theremin.
+          </p>
+        </div>
+      </div>
+
+ </div>
+        
+        <div class="image-container">
+        <p>Site built using Boostrap 4.1.1<br> All work &copy; Agnieszka Czeszumska 2022</p>
+        </div>
+        
+        <script src="js/scroll-down.js"></script>
+        <script src="js/navbar.js"></script>
+        <script src="js/gallery.js"></script>
+
+    </body>
+</html>
